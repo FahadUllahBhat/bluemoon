@@ -66,10 +66,11 @@
                 display: flex;
                 justify-content: flex-start !important;
             }
-            .about-img img{
+
+            .about-img img {
                 width: 100% !important;
             }
-          
+
         }
 
         .span2 {
@@ -160,53 +161,73 @@
             background-color: #f5f3f0 !important;
         }
 
-        .text-right a{
+        .text-right a {
             background-color: #116466;
             color: white;
         }
-        .text-right a:hover{
+
+        .text-right a:hover {
             background-color: #0f5052;
             color: white;
         }
 
-       .about-container{
-           margin-top:7rem;
-           
-       }
+        .about-container {
+            margin-top: 7rem;
 
-       .about-txt h1{
-        font-size: 32px;
-        position: absolute;
-        font-family: 'Lemonada', cursive;
-        
-       }
-       .about-span{
-           color: #116466;
-       }
-       .about-img img{
-           width: 98%;
-           height: 30rem !important;
-          object-fit: cover;
-       }
-       .about-col-1{
-           margin-top: 10%;
-       }
+        }
 
-       .social-cont{
-           margin-top: 10%;
-       }
-       .connect-social{
-        font-size: 32px;
-        position: absolute;
-        font-family: 'Lemonada', cursive;
-        color: #116466;
-       }
-       .social-txt{
-          display: flex;
-          justify-content: center;
-          margin-bottom: 70px;
-       }
-      
+        .about-txt h1 {
+            font-size: 32px;
+            position: absolute;
+            font-family: 'Lemonada', cursive;
+
+        }
+
+        .about-span {
+            color: #116466;
+        }
+
+        .about-img img {
+            width: 98%;
+            height: 30rem !important;
+            object-fit: cover;
+        }
+
+        .about-col-1 {
+            margin-top: 10%;
+        }
+
+        .social-cont {
+            margin-top: 10%;
+        }
+
+        .connect-social {
+            font-size: 32px;
+            position: absolute;
+            font-family: 'Lemonada', cursive;
+            color: #116466;
+        }
+
+        .social-txt {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 70px;
+        }
+
+        .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+        .images-start{
+            display: flexbox;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column img{
+       width: 100%;
+            margin-top: 8px;
+        }
     </style>
 </head>
 
@@ -255,7 +276,7 @@
 
     <!--carousel start-->
 
-  
+
 
     <section class="pt-5 pb-5">
         <div class="container">
@@ -264,8 +285,7 @@
                     <h3 class="mb-3">Some latest items</h3>
                 </div>
                 <div class="col-6 text-right">
-                    <a class="btn mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
-                        data-slide="prev">
+                    <a class="btn mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                         <i class="fa fa-arrow-left"></i>
                     </a>
                     <a class="btn mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
@@ -294,8 +314,7 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="images/pheran1.jpg">
+                                            <img class="img-fluid" alt="100%x280" src="images/pheran1.jpg">
                                             <div class="card-body">
                                                 <h4 class="card-title">Special title treatment</h4>
                                                 <p class="card-text">With supporting text below as a natural lead-in to
@@ -306,8 +325,7 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="images/pheran2.jpg">
+                                            <img class="img-fluid" alt="100%x280" src="images/pheran2.jpg">
                                             <div class="card-body">
                                                 <h4 class="card-title">Special title treatment</h4>
                                                 <p class="card-text">With supporting text below as a natural lead-in to
@@ -336,8 +354,7 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="images/shawls.jpg">
+                                            <img class="img-fluid" alt="100%x280" src="images/shawls.jpg">
                                             <div class="card-body">
                                                 <h4 class="card-title">Special title treatment</h4>
                                                 <p class="card-text">With supporting text below as a natural lead-in to
@@ -379,8 +396,7 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="images/pheran3.jpg">
+                                            <img class="img-fluid" alt="100%x280" src="images/pheran3.jpg">
                                             <div class="card-body">
                                                 <h4 class="card-title">Special title treatment</h4>
                                                 <p class="card-text">With supporting text below as a natural lead-in to
@@ -425,8 +441,12 @@
                     <br>
                     <br>
                     <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, exercitationem. Voluptas quas labore quisquam eaque sapiente nostrum laboriosam! Laboriosam minima necessitatibus eos perspiciatis eum cupiditate voluptatem asperiores deserunt ea nobis?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repellendus suscipit placeat! Ut quibusdam explicabo officia provident expedita, cum, aliquid eveniet tempora nulla numquam possimus soluta minima ex cumque tenetur?
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, exercitationem. Voluptas quas
+                        labore quisquam eaque sapiente nostrum laboriosam! Laboriosam minima necessitatibus eos
+                        perspiciatis eum cupiditate voluptatem asperiores deserunt ea nobis?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repellendus suscipit placeat! Ut
+                        quibusdam explicabo officia provident expedita, cum, aliquid eveniet tempora nulla numquam
+                        possimus soluta minima ex cumque tenetur?
                     </p>
                 </div>
             </div>
@@ -443,16 +463,49 @@
         </div>
         <div class="social">
             <a href="https://www.facebook.com/profile.php?id=100023571677849">
-            <img src="https://img.icons8.com/dotty/80/000000/facebook-new.png"/>
-        </a>
-     
-           <a href="#"><img src="https://img.icons8.com/material-outlined/80/000000/instagram-new.png"/>
-           </a> 
-           <hr style="width: 20%;margin-left: auto;margin-right: auto;color: #116466;height: 5px;border-radius: 50px;">
+                <img src="https://img.icons8.com/dotty/80/000000/facebook-new.png" />
+            </a>
+
+            <a href="#"><img src="https://img.icons8.com/material-outlined/80/000000/instagram-new.png" />
+            </a>
+            <hr
+                style="width: 20%;margin-left: auto;margin-right: auto;color: #116466;height: 5px;border-radius: 50px;opacity:1;">
         </div>
     </div>
 
     <!--social end-->
+<br>
+<br>
+<br>
+<br>
+    <!--images start-->
+
+    <div class="images container">
+        <div class="images-start">
+            <div class="column">
+                <img src="images/pheran2.jpg" alt="">
+                <img src="images/shawls.jpg" alt="">
+                <img src="images/6.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="images/pheran1.jpg" alt="">
+                <img src="images/about.jpg" alt="">
+                <img src="images/pheran3.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="images/1.jpg" alt="">
+                <img src="images/2.jpg" alt="">
+                <img src="images/3.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="images/4.jpg" alt="">
+                <img src="images/5.jpg" alt="">
+                <img src="images/Online Pakistani Suits In India - Buy 100 Original Guaranteed.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--images end-->
 </body>
 
 </html>
